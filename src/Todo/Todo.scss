@@ -1,0 +1,8 @@
+.Todo{
+    &__text{
+        transition: all 0.25s ease-in-out;
+        &.--finished{
+            text-decoration: line-through;
+        }
+    }
+}
